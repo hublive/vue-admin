@@ -1,0 +1,22 @@
+*.o
+*.o.*
+*.a
+*.s
+*.ko
+*.so
+*.so.dbg
+*.mod.c
+*.idea
+/vmlinuz
+/System.map
+/Module.markers
+/tar-install/
+!.gitignore
+!.mailmap
+
+#
+# Generated include files
+#
+include/config
+include/generated
+arch/*/include/generated
